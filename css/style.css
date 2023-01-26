@@ -1,0 +1,199 @@
+/*Обнуление
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}*/
+/*--------------------*/
+
+
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.wrapper {
+	margin-bottom: 30px;
+}
+.wrapper.line {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #8cb724;
+}
+#wrapperbg {
+	width: 100%;
+	height: 300px;
+	margin-top: 82px;
+}
+#wrapperbg img {
+	width: 100%;
+	height: 350px;
+}
+.wrapper.line2 {
+	background-color: #ece9e9;
+	margin-bottom: 0px;
+}
+.center {
+	width: 1000px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+header {
+
+
+}
+nav {
+	display: flex;
+}
+nav a {
+	padding: 10px;
+	margin-right: 20px;
+	color: white;
+	font: 18px Arial;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+main {
+	margin-top: 100px;
+}
+main h2 {
+	text-align: center;
+	font-family: Arial;
+}
+#top_recipes {
+	background-color: #f5f5f5;
+	margin: 30px 0px 50px;
+}
+#top_recipes h2 {
+	color: #fb602c;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+#top_recipes p {
+	margin-top: 0px;
+	text-align: center;
+	font: 12px Arial;
+	color: DimGray;
+}
+#top_recipes #justLine {
+	width: 95%;
+	margin: 0px auto;
+	border: 1px solid #dcd9d9;
+}
+#best_recepies {
+	display: flex;
+	height: 370px;
+	justify-content: space-evenly;
+	padding: 30px;
+}
+#best_recepies section {
+	width: 150px;
+	margin-right: 20px;
+	background-color: white;
+	box-shadow: 0px 0px 2px grey;
+}
+#best_recepies img {
+	width: 150px;
+	height: 150px;
+}
+#best_recepies h4 {
+	font: bold 14px Arial;
+	color: #fb602c;
+	padding: 5px;
+	margin: 0px auto 5px;
+}
+#best_recepies section p {
+	text-align: left;
+	margin: 10px 0px 0px 10px;
+}
+#best_recepies a {
+	font: bold 12px Arial;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	margin: 20px 0px 10px 10px;
+	background-color: #fb602c;
+	border: 1px solid #fb602c;
+	border-radius: 5px;
+}
+
+
+.imgCenter {
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+}
+.article {
+	display: flex;
+	width: 800px;
+	margin-bottom: 20px;
+}
+.article img {
+	margin-right: 20px;
+	width: 200px;
+	height: 200px;
+}
+.article a {
+	color: #fb602c;
+	font: 20px  Arial;
+	font-weight: bold;
+	margin-bottom: 0px;
+	text-decoration: none;
+}
+.article a:hover {
+	text-decoration: underline;
+}
+.article p {
+	text-align: justify;
+	color: DimGray;
+}
+.title {
+	width: 600px;
+	text-align: center;
+	margin: 10px auto 20px;
+	font-family: Arial;
+	color: grey;
+}
+footer {
+	display: flex;
+	margin-bottom: 30px;
+}
+footer h2 {
+	font: 14px Arial;
+	margin-right: 50px;
+}
+footer p {
+	width: 250px;
+	font: 12px Arial;
+	text-align: justify;
+	margin-right: 50px;
+	color: grey;
+}
+footer a {
+	color: grey;
+	text-decoration: none;
+	margin-right: 50px;
+}
+footer a:hover {
+	color: OrangeRed;
+}
+footer img {
+	margin-bottom: 20px;
+}
